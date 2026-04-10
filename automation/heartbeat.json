@@ -1,0 +1,30 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "service": "infra-terraform",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "terraform": {
+      "status": "healthy",
+      "version": "1.6.6"
+    },
+    "aws_cli": {
+      "status": "healthy",
+      "version": "2.13.28"
+    },
+    "git": {
+      "status": "healthy",
+      "version": "2.42.0"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.3,
+    "disk_space_available": "50GB"
+  },
+  "metadata": {
+    "hostname": "infra-terraform-prod-01",
+    "region": "us-west-2"
+  }
+}
